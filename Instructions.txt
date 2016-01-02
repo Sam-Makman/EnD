@@ -1,0 +1,26 @@
+Step 1: Select a csv with section IDs and there corresponding professors
+	Format:
+			------------------------------------
+			| Section ID | Professor Last Name |
+			------------------------------------
+	e.g. 	| 17	     | Beck				   |
+			------------------------------------
+	*Professors with the same name should have their first initial added to their last name with no space
+
+Step 2: Select csv with student information in the following format:
+		    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		 	| Student ID | Gender | Athlete | Sport | SSS | AES/TOK | Transfer | Continuing | Previous Professor | Choice 1 | Choice 2 | Choice 3 | Choice 4 | Choice 5 | Choice 6 |
+			------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	e.g		| 300	     |  (M/F) |	Y    	| VB	|(1/2)|  (1/2)  |   (1/2)  |   (1/2)    | Beck				 | 3		| 10	   | 25		  | 1		 | 6	    | 17	   |
+            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Step 3: Select max number of students per section
+
+Step 4: Select number of times for the program to run. The more iterations the longer it will take for the program to run.
+
+Step 5: Click Run
+
+Step 6: When program is done running a dialog box will pop up to notify you. 
+		Two csv files (Output.csv and Analysis.csv) will appear in the same folder as the program.
+		The Output.csv has the list of students placed in each section.
+		The Analysis.csv shows the spread of students with "special" attributes.

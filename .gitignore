@@ -1,0 +1,6 @@
+*.class
+bin
+*.lock
+*.DS_Store
+Output.csv
+Analysis.csv
